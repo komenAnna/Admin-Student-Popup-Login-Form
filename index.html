@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- center class is in charge of the buttons styling -->
+    <div class="center">
+        <button id="admin-login">Admin</button>
+        <button id="student-login">Student</button>
+    </div>
+    <!-- center class ends here -->
+
+    <div class="admin-popup">
+        <!-- admin log in form starts here -->
+        <div class="admin-form"> 
+            <div class="close-btn">
+                &times;
+            </div>
+            <div class="form">
+                <h2>Login</h2>
+                <div class="form-element">
+                    <label for="refrence-number">Reference Number</label>
+                    <input type="text" id="refrence-number" placeholder="Enter ref number">
+                </div>
+                <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                </div>
+                <div class="form-element">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+                <div class="form-element">
+                    <button>Sign in</button>
+                </div>
+                <div class="form-element">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+        <div class="active"></div>
+        </div>
+        
+        <!-- admin log in form ends here -->
+
+        <!-- student log in form starts here -->
+        <div class="student-popup">
+        <div class="student-form">
+            <div class="close-btn">
+                &times;
+            </div>
+            <div class="form">
+                <h2>Login</h2>
+                <div class="form-element">
+                    <label for="registration-number">Registration Number</label>
+                    <input type="text" id="registration-number" placeholder="Enter reg number">
+                </div>
+                <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                </div>
+                <div class="form-element">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+                <div class="form-element">
+                    <button>Sign in</button>
+                </div>
+                <div class="form-element">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>   
+        </div>
+        <!-- student log in form ends here -->
+        <div class="active"></div>
+    </div>
+    <script type="text/JavaScript" src="script.js"></script>
+</body>
+</html>
