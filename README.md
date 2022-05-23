@@ -1,3 +1,2 @@
-# Demo 2
+Modal Forms with HTML, CSS and Vanilla JavaScript
 
-Description
